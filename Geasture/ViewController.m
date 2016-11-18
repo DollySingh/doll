@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    //dd
+    
     _lbl1.userInteractionEnabled=YES;
     UITapGestureRecognizer *tap= [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap)];
     tap.numberOfTapsRequired=2;
